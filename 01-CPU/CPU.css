@@ -132,4 +132,16 @@ div + p{
 .cite{
 
     border: solid 1px;
+    margin: 20px 40px 70px 100px; /*Внешний отступ по часовой стрелке начиная сверху*/
+    /*
+    top-bottom right-left
+    top right-left bottom
+    top right bottom left
+    */
+    padding: 10px;/*Внутренний отступ по часовой стрелке начиная сверху*/
 }
+/*
+Если margin или padding заданы одним значением, то оно применяется со всех сторон.
+
+
+*/
