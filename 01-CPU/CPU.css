@@ -4,14 +4,14 @@ body {
     font-family: "Roboto Condensed", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     padding: 5%;
-    background-image: url("img/pcb.jpg");
+    /*background-image: url("img/pcb.jpg");*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
     /*Фильтры*/
     margin: 0;
-    backdrop-filter: hue-rotate(200deg) brightness(140%) grayscale(80%) blur(3px) ;
+    backdrop-filter: hue-rotate(200deg) brightness(140%) grayscale(80%) blur(2px) ;
 
 }
 
@@ -129,7 +129,7 @@ div + p{
 ------------
 */
 }
-div~div > p + p
-{
+.cite{
 
+    border: solid 1px;
 }
