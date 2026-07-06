@@ -1,0 +1,40 @@
+﻿table
+{
+    border:solid 2px;
+    border-collapse:collapse;
+    margin:15px auto;
+
+}
+table:hover{
+    box-shadow: 0 0 8px 4px gray;
+}
+caption{
+    text-align: left;
+    font-size: smaller;
+}
+thead{
+    border:solid 2px;
+}
+
+thead  th
+{
+    padding: 8px;
+    background-color:rgb(85 85 170);
+    color:white;
+}
+th, td
+{
+    border:solid 1px;
+    padding:5px;
+}
+tbody th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+tr:hover{
+    background-color: rgb(85 85 170 / 0.46);
+    backdrop-filter: blur(7px) ;
+}
+
