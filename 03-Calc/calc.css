@@ -52,7 +52,9 @@
     width:24px;
     height:24px;
     font-weight: 800;
-    text-align:justify-all;
+
+    padding:0 4px 2px 4px;
+    font-size:16px;
 
     color:white;
 
@@ -63,6 +65,7 @@
     /*box-shadow: inset 1px 1px 2px 0 #77A1F5;*/
 
     /*background-color:rgb(45,109,249);*/
+    text-align: center;
     background-image: linear-gradient(to bottom right,rgb(14,70,190) 0%,rgb(51,144,253) 10%,rgb(0,86,228) 50%,rgb(4,10,253) 90%,rgb(13,8,141) 100% );
     box-shadow: inset 1px 1px 1px 0 #77a1f5;
 
