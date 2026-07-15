@@ -247,3 +247,14 @@ input:focus-visible{
 .calc-buttons > .memory-button, .calc-buttons > .operation-button, .clear-buttons > button{
     color:red;
 }
+.calc-buttons button{
+    border:solid 1px #113B5E;
+    border-radius:4px;
+    box-shadow: inset 0 -2px 3px 0 #DDDDDD;
+}
+.calc-buttons  button:hover {
+    box-shadow: inset 0 -1px 5px 0 peru;
+}
+.calc-buttons  button:active {
+    background-color: lightgray;
+}
