@@ -11,8 +11,8 @@
 .main-window
 {
     /*border:solid 1px;*/
-    width: 300px;
-    height: 350px;
+    width: 299px;
+    height: 330px;
 }
 
 .title-bar
@@ -221,13 +221,14 @@ input:focus-visible{
 
 .square
 {
-    border: solid 1px;
-    width:32px;
-    height:32px;
+    border: inset 1px;
+    width:30px;
+    height:30px;
 }
 .calc-buttons button{
     width:40px;
     height:32px;
+    color:darkblue;
 }
 .clear-buttons{
     grid-row: 1;
@@ -241,4 +242,8 @@ input:focus-visible{
 }
 .menu-bar button, .calc-buttons button{
     font-size:11px;
+}
+/*////////////////////*/
+.calc-buttons > .memory-button, .calc-buttons > .operation-button, .clear-buttons > button{
+    color:red;
 }
