@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы и события</title>
+    <style>
+        input,div,button {
+            font-size: 32pt;
+        }
+        form{
+            display: flex;
+            width: 50%;
+        }
+        .task{
+            display: flex;
+            width: 50%;
+        }
+        .result{
+            display: flex;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Формы и события</h1>
+    <h2>Factorial</h2>
+    <div class="task" method="get" action="#">
+        <input type="number" id="number" min="0" max="5">
+        <div class="result" id="factorial_result">
+
+        </div>
+        <button onclick="factorial()">Вычислить</button>
+    </div>
+
+</body>
+<script type="text/javascript">
+    function factorial() {
+        const numberElement = document.getElementById("number");
+        let number = numberElement.value;
+        const factorialElement = document.getElementById("factorial_result");
+        let f = 1;
+        for(let i = 1; i <= number; i++) {
+            f*=i;
+        }
+        factorialElement.innerHTML = f;
+
+    }
+</script>
+</html>
