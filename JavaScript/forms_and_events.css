@@ -54,11 +54,11 @@ body, #switch-background
 
 /* /////////////////////////////////////////////////// */
 
-input, div, button
-{
-    font-size: 24px;
-    width:50%;
-}
+/*input, div, button*/
+/*{*/
+/*    font-size: 24px;*/
+/*    width:50%;*/
+/*}*/
 input
 {
     text-align:right;
@@ -120,10 +120,19 @@ label
 
 /* /////////////////////////////////////////////////////////////////////////// */
 
-#clock, #clock div
+#clock
 {
     font-family: 'Digital-7 Mono', serif;
     width:98%;
     font-size:48px;
     text-align:center;
 }
+#clock-controls{
+    font-size: 22px;
+    align-self: center;
+}
+
+/*#clock > #clock-controls label{*/
+/*    font-size: 22px;*/
+/*    display:flex;*/
+/*}*/
