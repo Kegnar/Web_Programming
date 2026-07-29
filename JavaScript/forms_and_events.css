@@ -16,7 +16,7 @@
     height:var(--bg-size);
     padding:0 calc(var(--bg-size)/5);
     background-size:var(--bg-size) var(--bg-size);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 .dark
 {
@@ -44,7 +44,6 @@
 {
     display:flex;
     padding:0 8px;
-
 }
 
 /* /////////////////////////////////////////////////// */
@@ -111,4 +110,13 @@ label
     justify-content:space-between;
 
     margin:12px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+#clock, #clock div
+{
+    width:98%;
+    font-size:48px;
+    text-align:center;
 }
